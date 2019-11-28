@@ -1,0 +1,8 @@
+set iprefix = model/test01/model
+set oprefix = model/test01/output/model
+
+set max_order =5 
+set max_adaptive_refinements =5 
+set n_global_refinements = 2
+set n_rx_cell_refinements =0 
+set max_rx_cell_size = 0.01

@@ -1,0 +1,9 @@
+set iprefix = model/model-hp/model
+set oprefix = model/model-hp/output/model-hp
+
+set max_order = 5
+set max_adaptive_refinements = 11
+set refine_fraction =1 
+set n_global_refinements =0 
+set n_rx_cell_refinements =0 
+set max_rx_cell_size = 0.01

@@ -1,0 +1,22 @@
+The open source finite element library deal.II was used in our program, one can git it from 
+https://www.dealii.org/. The program requires the deal.II version 9.0.0 or later.
+
+To use this program, first, one should go to the tdip3d-master directory and type
+
+mkdir build
+cd build
+
+Second, the following commands can help you to  generate an executable file "tdip3d".
+
+cmake -DCMAKE_TPYE_BUILD=Release -DDEAL_II_DIR=/path/to/deal.II ..   #  for release
+or  cmake -DCMAKE_TPYE_BUILD=Debug -DDEAL_II_DIR=/path/to/deal.II ..  #  for debug
+make
+
+Finial, you shuold have three configuration files *.mdl，*.emd, *.prm, and go to the tdip3d-master
+directory and type
+
+./tdip3d  *.prm
+
+
+Under our "model" directoty "test01" and "test02" are the simple example, and the others 
+correspond to the models used in our manuscript.
