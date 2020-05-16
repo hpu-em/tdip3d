@@ -1,0 +1,9 @@
+set iprefix = model-modify/halg-space/model-h/model
+set oprefix = model-modify/halg-space/model-h/output/model
+
+set max_order =1 
+set max_adaptive_refinements =5 
+set refine_fraction =1 
+set n_global_refinements =0 
+set n_rx_cell_refinements =0 
+set max_rx_cell_size = 0.01
